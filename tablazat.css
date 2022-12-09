@@ -1,0 +1,46 @@
+main{
+    display: grid;
+   grid-template-areas:  " h h h"
+    "n a as"
+    "f f f"
+    ;
+}
+header{
+    grid-area: h;
+}
+nav{
+    grid-area: n;
+}
+article{
+    grid-area: a;
+}
+aside{
+    grid-area: as;
+}
+footer{
+    grid-area: f;
+}
+th{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: lightskyblue;
+    color: white;
+}
+tr:nth-child(even){background-color: lightskyblue;
+   }
+body{
+    background-image: url(GRID_TABLAZAT/kepek/hatter.jpg);
+}
+main{
+    padding:45px;
+    background-color: white;
+}
+footer{
+    background-color: blue;
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
+
